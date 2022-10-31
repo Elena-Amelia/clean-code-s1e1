@@ -56,7 +56,7 @@ button {
   flex-grow: 1;
 }
 
-.btn,
+.new-task__btn,
 .item__btn {
   background: none;
   border: 0;
@@ -67,15 +67,15 @@ button {
   cursor: pointer;
 }
 
-.btn:hover,
+.new-task__btn:hover,
 .item__btn:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-.add-task__title,
-.todo-tasks__title,
-.done-tasks__title {
+.new-task__title,
+.current-task__title,
+.done-task__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,19 +103,19 @@ button {
 }
 
 /* New Task */
-.add-task {
+.new-task {
   margin: 20px auto;
 }
 
-.add-task__block {
+.new-task__block {
   display: flex;
 }
 
-.add-task__title {
+.new-task__title {
   margin-bottom: 20px;
 }
 
-.add-task__input {
+.new-task__input {
   width: 318px;
 }
 
@@ -159,7 +159,7 @@ li > label {
 }
 
 /* Completed */
-.done-tasks__list .item__label {
+.done-task__list .item__label {
   text-decoration: line-through;
   color: #888;
 }
